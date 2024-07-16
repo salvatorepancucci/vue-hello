@@ -2,5 +2,11 @@
 const { createApp } = Vue;
 
 createApp({
-    
+    // Definizione dei dati per la nostra app Vue
+    data() {
+        return {
+        // Definizione del messaggio da visualizzare
+            message: 'Hello, Vue!'
+        }
+    }
 })
