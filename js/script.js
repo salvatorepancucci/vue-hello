@@ -9,4 +9,4 @@ createApp({
             message: 'Hello, Vue!'
         }
     }
-})
+}).mount('#app') // Selezione dell'elemento HTML con id 'app'
